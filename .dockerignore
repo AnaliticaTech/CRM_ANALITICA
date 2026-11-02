@@ -1,0 +1,46 @@
+# Metadados e resultados locais
+.git
+.github
+**/node_modules
+**/.next
+**/coverage
+**/.cache
+**/.turbo
+**/*.tsbuildinfo
+
+# Ambientes: somente exemplos explicitamente seguros entram no contexto
+**/.env
+**/.env.*
+!.env.local.example
+**/.npmrc
+
+# Credenciais e chaves privadas
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/id_rsa
+**/id_ed25519
+**/.ssh
+**/.aws
+**/.gnupg
+
+# Backups, bancos e arquivos operacionais (diretorios na raiz)
+/backups
+/backup
+/data
+/storage
+/logs
+**/*.bak
+**/*.backup
+**/*.save
+**/*.dump
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-*
+**/*.sqlite3-*
+**/*.log
+**/npm-debug.log*
+**/yarn-error.log*
+README.md
+CHANGELOG.md
